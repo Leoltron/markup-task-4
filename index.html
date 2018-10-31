@@ -3,7 +3,329 @@
 <head>
     <meta charset="utf-8">
     <title>Задача «Про котиков»</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="icon.png"/>
 </head>
 <body>
+<!-- Все совпадения возрастов, пола, кличек и других характеристик котов с изображенными на
+ фотографиях носят случайный характер. -->
+<input type="checkbox" class="module-to-list-switch" id="switchToListView" title="Переключить вид">
+<div class="cat-info">
+    <div class="cat-image-container">
+        <img class="cat-image" src="cats/0.jpg">
+    </div>
+    <div class="cat-info-container cat-short-info-container">
+        <div class="cat-name" title="Боря">Боря</div>
+        <br>
+        <p>Возраст: ~3 года</p>
+        <p>Порода: ???</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>Статус: ищет хозяина</p>
+    </div>
+
+    <div class="cat-info-container cat-full-info-container">
+        <div class="cat-name" title="Боря">Боря</div>
+        <br>
+        <p>Возраст: примерно 3 года</p>
+        <p>Порода: неизвестна</p>
+        <p>Ничем не болеет</p>
+        <br>
+        <p>
+            Борю подобрали на улице, когда он был еще совсем маленьким.
+        </p>
+        <p>
+            Пуглив и недоверчив к незнакомцам, но, узнав вас поближе, станет ласковым и игривым.
+        </p>
+    </div>
+</div>
+<div class="cat-info">
+    <div class="cat-image-container">
+        <img class="cat-image" src="cats/1.jpg">
+    </div>
+    <div class="cat-info-container cat-short-info-container">
+        <div class="cat-name" title="Василевс Бошкевич Тринадцатый Наиусатейший Повелитель">
+            Василевс Бошкевич Тринадцатый Наиусатейший Повелитель
+        </div>
+        <br>
+        <p>Возраст: 8 лет</p>
+        <p>Порода: ???</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>Статус: ищет вассала</p>
+    </div>
+
+    <div class="cat-info-container cat-full-info-container">
+        <div class="cat-name" title="Василевс Бошкевич Тринадцатый Наиусатейший Повелитель">
+            Василевс Бошкевич Тринадцатый Наиусатейший Повелитель
+        </div>
+        <br>
+        <p>Возраст: 8 лет</p>
+        <p>Порода: почетная</p>
+        <p>Василевс не болеет</p>
+        <br>
+        <p>
+            Величественный Валилевс озарит ваш дом своим видом в обмен на уважение,
+            четырехразовое питание и тишину.
+        </p>
+        <p>
+            Прекрасно ладит с любым существом, держащимся от него на почтительном расстоянии.
+            И, разумеется, кормящим его.
+        </p>
+    </div>
+</div>
+<div class="cat-info">
+    <div class="cat-image-container">
+        <img class="cat-image" src="cats/2.jpg">
+    </div>
+    <div class="cat-info-container cat-short-info-container">
+        <div class="cat-name" title="Маргарита">Марго</div>
+        <br>
+        <p>Возраст: 5 лет</p>
+        <p>Порода: ???</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>Статус: ищет хозяина</p>
+    </div>
+
+    <div class="cat-info-container cat-full-info-container">
+        <div class="cat-name" title="Маргарита">
+            Маргарита
+        </div>
+        <br>
+        <p>Возраст: 5 лет</p>
+        <p>Порода: ???</p>
+        <p>Ничем не болеет</p>
+        <br>
+        <p>
+            Марграрита ищет хозяйна, способного понять и принять ей чуткую натуру
+            и необычные запросы наподобии реугольной миски и шерстянных носков.
+        </p>
+        <p>
+            Ладит с собаками, крысами, мышами, удавами, летучими мышами и людьми с второй группой
+            крови.
+        </p>
+    </div>
+</div>
+<div class="cat-info">
+    <div class="cat-image-container">
+        <img class="cat-image" src="cats/3.jpg">
+    </div>
+    <div class="cat-info-container cat-short-info-container">
+        <div class="cat-name" title="Афанасий">Афанасий</div>
+        <br>
+        <p>Возраст: 1 год</p>
+        <p>Порода: ???</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>Статус: ищет хозяина</p>
+    </div>
+
+    <div class="cat-info-container cat-full-info-container">
+        <div class="cat-name" title="Афанасий">
+            Афанасий
+        </div>
+        <br>
+        <p>Возраст: 1 год</p>
+        <p>Порода: ???</p>
+        <p>Ничем не болеет</p>
+        <br>
+        <p>
+            Скромный и тихий кот с удовольствием скрасит ваш вечер в маленьком, но уютном жилище.
+        </p>
+        <br>
+        <p>
+            Неприхотлив, боится любых других домашних животных.
+        </p>
+    </div>
+</div>
+
+<div class="cat-info">
+    <div class="cat-image-container">
+        <img class="cat-image" src="cats/4.jpg">
+    </div>
+    <div class="cat-info-container cat-short-info-container">
+        <div class="cat-name" title="Полина">Полина</div>
+        <br>
+        <p>Возраст: 2 года</p>
+        <p>Порода: ???</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>Статус: ищет хозяина</p>
+    </div>
+
+    <div class="cat-info-container cat-full-info-container">
+        <div class="cat-name" title="Полина"> Полина</div>
+        <br>
+        <p>Возраст: 2 года</p>
+        <p>Порода: ???</p>
+        <p>Ничем не болеет</p>
+        <br>
+        <p>
+            Любопытный и любящий клубочек шерсти ищет новый дом. Поля готова присмотреть за
+            вашими детьми и домом. В случае беспорядков она бует внимательно наблюдать за
+            происходящим, чтобы промяучить вам все, что произошло.
+        </p>
+        <br>
+        <p>
+            Очень общительна, боится оставаться в одиночестве. Ладит с любыми животными.
+        </p>
+    </div>
+</div>
+<div class="cat-info">
+    <div class="cat-image-container">
+        <img class="cat-image" src="cats/5.jpg">
+    </div>
+    <div class="cat-info-container cat-short-info-container">
+        <div class="cat-name" title="Матвей">Матвей</div>
+        <br>
+        <p>Возраст: 4 года</p>
+        <p>Порода: ???</p>
+        <p>Болезни: плохо видит</p>
+        <br>
+        <p>Статус: ищет хозяина</p>
+    </div>
+
+    <div class="cat-info-container cat-full-info-container">
+        <div class="cat-name" title="Матвей"> Матвей</div>
+        <br>
+        <p>Возраст: 4 года</p>
+        <p>Порода: ???</p>
+        <p>Плохо видит</p>
+        <br>
+        <p>
+            Проведя детство в деревне, Матвей очень любит гулять на природе.
+            Если вы сами живете в деревне или около парка, Матвей - ваш выбор.
+        </p>
+        <br>
+        <p>
+            Плохо ладит с домашней техникой, не может спать под шумом холодильника или кулера,
+            боится шума пылесоса. Стойко выносит холод и жару.
+        </p>
+    </div>
+</div>
+<div class="cat-info">
+    <div class="cat-image-container">
+        <img class="cat-image" src="cats/6.jpg">
+    </div>
+    <div class="cat-info-container cat-short-info-container">
+        <div class="cat-name" title="Ксюша">Ксюша</div>
+        <br>
+        <p>Возраст: 7 лет</p>
+        <p>Порода: ???</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>Статус: ищет хозяйку</p>
+    </div>
+
+    <div class="cat-info-container cat-full-info-container">
+        <div class="cat-name" title="Ксюша"> Ксюша</div>
+        <br>
+        <p>Возраст: 7 лет</p>
+        <p>Порода: ???</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>
+            Кошка с характером, уважение которой нужно заслужить. Но, достигнув взаимопонимания,
+            вы получите понимающую подругу, готовую вас поддержать в болезни и здравии.
+        </p>
+        <br>
+        <p>
+            Хорошо ладит с женщинами, терпит мужчин, не любит детей дошкольного возраста.
+            Плохо ладит с другими кошками.
+        </p>
+    </div>
+</div>
+<div class="cat-info">
+    <div class="cat-image-container">
+        <img class="cat-image" src="cats/8.jpg">
+    </div>
+    <div class="cat-info-container cat-short-info-container">
+        <div class="cat-name" title="Степа">Степа</div>
+        <br>
+        <p>Возраст: 5 месяцев</p>
+        <p>Порода: Эгейская</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>Статус: ищет хозяина</p>
+    </div>
+
+    <div class="cat-info-container cat-full-info-container">
+        <div class="cat-name" title="Степа"> Степа</div>
+        <br>
+        <p>Возраст: 5 месяцев</p>
+        <p>Порода: Эгейская</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>
+            Коцентрация любви и любопытства зашкаливает в этом котенке. Он не успокоится, пока
+            каждый житель его дома не будет найден и вылизан!
+        </p>
+        <br>
+        <p>
+            Ладит со всеми, но требует времени на знакомтсов и привыкание.
+        </p>
+    </div>
+</div>
+<div class="cat-info">
+    <div class="cat-image-container">
+        <img class="cat-image" src="cats/7.jpg">
+    </div>
+    <div class="cat-info-container cat-short-info-container">
+        <div class="cat-name" title="Настя">Настя</div>
+        <br>
+        <p>Возраст: 5 лет</p>
+        <p>Порода: Русская голубая</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>Статус: ищет хозяина</p>
+    </div>
+
+    <div class="cat-info-container cat-full-info-container">
+        <div class="cat-name" title="Настя"> Настя</div>
+        <br>
+        <p>Возраст: 5 лет</p>
+        <p>Порода: Русская голубая</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>
+            Очень активная, любопытная и жизнерадостная кошка. Настя - источник любви и добра, но
+            при этом способна постоять за себя и за тех, кого любит. От её мурлыкания пройдет
+            любая тоска!
+        </p>
+        <br>
+        <p>
+            Не переносит морепродукты.
+        </p>
+    </div>
+</div>
+<div class="cat-info">
+    <div class="cat-image-container">
+        <img class="cat-image" src="cats/9.jpg">
+    </div>
+    <div class="cat-info-container cat-short-info-container">
+        <div class="cat-name" title="Костя">Костя</div>
+        <br>
+        <p>Возраст: 6 лет</p>
+        <p>Порода: Тайская</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>Статус: ищет хозяина</p>
+    </div>
+
+    <div class="cat-info-container cat-full-info-container">
+        <div class="cat-name" title="Костя"> Костя</div>
+        <br>
+        <p>Возраст: 6 лет</p>
+        <p>Порода: Тайская</p>
+        <p>Болезни: нет</p>
+        <br>
+        <p>
+            Костя ленив, не особо игрив, ест мало Держит вверенную ему территорию в порядке. Его
+            спокойно можно оставить дома, отправляясь в поездку. Не любит шумные толпы зверей или
+            людей.
+        </p>
+    </div>
+</div>
 </body>
 </html>
